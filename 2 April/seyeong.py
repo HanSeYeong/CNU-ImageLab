@@ -1,7 +1,7 @@
 
 def isHappy(n):
 
-    fail_number = []
+    fail_number = set()
     while True:
         nums = str(n)
         total = 0
@@ -10,7 +10,7 @@ def isHappy(n):
         if total == 1:
             return True
         if total not in fail_number:
-            fail_number.append(total)
+            fail_number.add(total)
         else:
             return False
         n = total
