@@ -1,4 +1,5 @@
-1. changing.bat 과 file_upload.bat 을 바탕 화면으로 복사한다.
+﻿1. changing.bat 과 file_upload.bat 을 바탕 화면으로 복사한다.
 2. 오른쪽 클릭해 편집으로 들어간다.
 2. 2번째 줄의cd 뒷부분에 %github_folder% 라고 적힌 부분을 (혹은 파일 주소가 있는 부분을) 자신의 깃허브 폴더 주소로 바꾼다.
 (예시 - cd %github_folder% --> cd C:\Users\pih\Desktop\CNU-ImageLab)
+test
