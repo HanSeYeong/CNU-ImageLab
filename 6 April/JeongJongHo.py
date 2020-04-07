@@ -1,6 +1,5 @@
 class Solution(object):
     def groupAnagrams(self, strs):
-        #print(len(strs))
         anagrams = []
         output = []
         for i in strs:
