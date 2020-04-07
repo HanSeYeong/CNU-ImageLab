@@ -47,7 +47,9 @@ public:
 
 ## 5. Commit 올릴때
 
-> commit 제목에 문제번호와 문제 이름, 실행 시간 적기
+> folder 이름은 문제 이름
+
+> commit 에 실행 시간과 메모리용량
 
 
 
