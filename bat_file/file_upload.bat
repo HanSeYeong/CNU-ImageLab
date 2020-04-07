@@ -1,6 +1,6 @@
 @echo off
 cd C:\Users\pih\Desktop\CNU-ImageLab
-set /p filename=파일(ex- "6 April"/JeongJongHo.py) : 
+set /p filename=파일(ex- "6 April"/ 폴더명 을 입력 시, 폴더 내부 파일 전부 올라감) : 
 git add %filename%
 :Start
 set /p message=커밋할 내용 : 
