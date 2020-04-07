@@ -1,4 +1,4 @@
-## 1.LeetCode page
+﻿## 1.LeetCode page
 
 > 주소 : https://leetcode.com/
 
@@ -47,9 +47,7 @@ public:
 
 ## 5. Commit 올릴때
 
-> commit 제목에 문제번호와 문제 이름 적기.
-
-> commit 내용에 실행 시간 
+> commit 제목에 문제번호와 문제 이름, 실행 시간 적기
 
 
 
