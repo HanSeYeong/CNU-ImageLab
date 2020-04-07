@@ -1,4 +1,4 @@
-## 1.LeetCode page
+﻿## 1.LeetCode page
 
 > 주소 : https://leetcode.com/
 
@@ -44,6 +44,12 @@ public:
 > 과제 해결 중 참고한 자료 (사이트, 책 등)
 
 과제 해결 중 참고했던 자료들은 코드 맨 밑에 주석으로 추가하도록 하자.
+
+## 5. Commit 올릴때
+
+> folder 이름은 문제 이름
+
+> commit 에 실행 시간과 메모리용량
 
 
 
