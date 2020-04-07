@@ -1,5 +1,5 @@
 @echo off
-cd C:\Users\pih\Desktop\CNU-ImageLab
+cd %github_folder%
 :Start
 set /p message=Ä¿¹ÔÇÒ ³»¿ë : 
 IF "%message%"=="" GOTO Default
