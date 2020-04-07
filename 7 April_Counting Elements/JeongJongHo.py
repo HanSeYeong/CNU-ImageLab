@@ -7,10 +7,6 @@ def isanothere(e,array):
 
 class Solution(object):
     def countElements(self, arr):
-        """
-        :type arr: List[int]
-        :rtype: int
-        """
         c = 0
         ar2 = list(set(arr))
         
