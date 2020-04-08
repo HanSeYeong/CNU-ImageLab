@@ -17,3 +17,20 @@ class Solution(object):
             output = output.next
             c = c+1
         return output
+
+#16ms
+
+
+class Solution(object):
+    def middleNode(self, head):
+        c = 1
+        output = head
+        while(head.next != None) :
+            head = head.next
+            c = c + 1
+            start = c
+            if start % 2 == 0 :
+                output = output.next
+        return output
+
+#12ms
