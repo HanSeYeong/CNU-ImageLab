@@ -35,5 +35,3 @@ class Solution(object):
             return 0
         else :
             return stones[0]
-            
-        
