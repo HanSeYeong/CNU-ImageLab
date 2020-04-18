@@ -1,18 +1,23 @@
 class Solution(object):
     def findMaxLength(self, nums):
-        L = len(nums)
-        bf = nums[0]
-        if bf == 0:
-            bf = -1
-        Arr = [bf]
-        mx = -999
-        for i in range(1, L):
-            bf = nums[i]
-            if bf == 0:
-                bf = -1
-            Arr.append(Arr[-1] + bf)
-            for j, v in enumerate(Arr):
-                if v == Arr[-1]:
-                    mx = max(mx, i - j)
-                    break
-        return mx
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        D = {0 : -1}
+        M = 0
+        sum = 0
+        for index, i in enumerate(nums):
+            if i:
+                sum+=1
+            else:
+                sum -=1
+            
+            if sum in D:
+                a = D[sum]
+                if index - a > M:
+                    M = index - a
+            else:
+                D[sum] = index
+        return M
+         
